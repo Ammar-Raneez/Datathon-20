@@ -1,0 +1,39 @@
+.navbar {
+	display: flex;
+	margin: 10px;
+	padding: 10px 20px;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 20px;
+	border: 2px rgb(255, 79, 79) solid;
+}
+.navbar__logoImg {
+	object-fit: contain;
+	height: 70px;
+	padding-right: 10px;
+}
+.navbar__right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 200px;
+}
+.navbar__right button {
+	color: red;
+	border: 1px red solid;
+}
+.navbar__logo {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.navbar__logo div span:first-child {
+	color: red;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar__logo div span:last-child {
+	color: #5861fa;
+    font-weight: 600;
+	font-size: 35px;
+}

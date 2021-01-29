@@ -1,0 +1,39 @@
+/* *{
+  background-color: rgb(248, 248, 248);
+} */
+.app__cards{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.app__charts{
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.app__chartsBar,.app__chartsLine{
+  flex: 1;
+}
+
+.app__covDetector{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.app__covDetectorHead{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 3px #000000 solid;
+  margin: 0 100px;
+}
+.app__covDetectorHead h1{
+  color: #FF3F3F;
+}
+.app__covDetectorHead p{
+  font-weight: 600;
+}

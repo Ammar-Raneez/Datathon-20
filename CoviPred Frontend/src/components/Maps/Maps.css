@@ -1,0 +1,30 @@
+.map {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.map__mainMap,
+.map__datePicker {
+	display: flex;
+	flex: 1;
+	justify-content: space-around;
+	padding: 30px;
+}
+.map__datePicker {
+	border-top: 2px #04FF00 solid;
+	margin-top: 30px;
+	padding: 10px !important;
+}
+.map__body {
+	display: flex;
+	justify-content: center;
+}
+.map__body, .map__bodyMap {
+	width: 100% !important;
+	height: 100% !important;
+}
+.leaflet-container {
+	width: 500px;
+	height: 800px;
+}

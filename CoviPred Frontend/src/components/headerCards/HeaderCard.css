@@ -1,0 +1,46 @@
+.headerCard{
+    flex: 1;
+    cursor: pointer;
+    margin: 8px;
+}
+.headerCard__title {
+    font-weight: bolder !important;
+    font-size: large !important;
+}
+.headerCard__mainred{
+    transition: 0.2s ease-in-out !important;
+    background-color:rgb(245, 245, 245) !important;
+    border-top: 8px red solid;
+    height: 150px !important;
+}
+.headerCard__mainred:hover{
+    border-top: 13px red solid;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.01);
+}
+
+
+.headerCard__mainblack{
+    transition: 0.2s ease-in-out !important;
+    background-color:rgb(245, 245, 245) !important;
+    border-top: 8px black solid;
+    height: 150px !important;
+}
+.headerCard__mainblack:hover{
+    border-top: 13px black solid;
+    transform: scale(1.01);
+    transition: 0.2s ease-in-out;
+}
+
+
+.headerCard__maingreen{
+    transition: 0.2s ease-in-out !important;
+    background-color:rgb(245, 245, 245) !important;
+    border-top: 8px #04ff00 solid;
+    height: 150px !important;
+}
+.headerCard__maingreen:hover{
+    transform: scale(1.01);
+    border-top: 13px #04ff00 solid;
+    transition: 0.2s ease-in-out;
+}

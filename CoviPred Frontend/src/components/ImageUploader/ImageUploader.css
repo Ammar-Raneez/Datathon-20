@@ -1,0 +1,45 @@
+.imageUploader {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.imageUploaderSampleImage img {
+	object-fit: contain;
+	height: 250px;
+}
+.imageUploaderSampleImage,
+.imageUploader__buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	flex: 1;
+	margin-bottom: 20px;
+}
+.imageUploader__buttons div {
+	display: flex;
+	/* border: 1px black solid; */
+}
+.imageUploader__buttons div button {
+	margin: 10px 50px;
+	color: red;
+	border: 1px red solid;
+}
+.loadingProgress {
+	object-fit: contain;
+	height: 200px;
+}
+.detectedOutputResult h1 {
+	font-weight: 700;
+    font-size: 40px;
+}
+.detectedOutputResult {
+	padding: 0px 200px;
+    border: 3px red solid;
+    margin: 85px;
+    border-radius: 999px;
+}
+.imageUploaderSampleImage h3{
+	color: red;
+}

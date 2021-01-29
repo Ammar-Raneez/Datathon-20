@@ -1,0 +1,31 @@
+.app,
+.app__age,
+.app__district,
+.app__industries,
+.app__profession,
+.app__province {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 20px;
+	flex-wrap: wrap;
+}
+.app__age > div,
+.app__district > div,
+.app__industries > div,
+.app__profession > div,
+.app__province > div {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.app__age > div > img,
+.app__district > div > img ,
+.app__industries > div > img ,
+.app__profession > div > img ,
+.app__province > div > img  {
+	object-fit: contain;
+	height: 200px;
+}

@@ -1,0 +1,15 @@
+.ipynb_checkpoints
+backend/notebooks/.ipynb_checkpoints
+NASH-ML_DA2049.pdf
+backend/notebooks/covipred-163e02a5c199.json
+Final Submission
+All Graphs Frontend/public
+backend/graphs
+backend/models
+backend/final age csvs
+backend/final district csvs
+backend/final profession csvs
+backend/final province csvs
+backend/final industry csvs
+backend/progress csvs
+Covid X-Ray Detection Frontend/covid19_xray_resnet_50.h5
